@@ -34,9 +34,6 @@ spec:
     params:
       - name: repo_url
       - name: revision
-    workspaces:
-      - name: source
-      - name: basic-auth
     tasks:
       - name: noop-task
         taskSpec:
