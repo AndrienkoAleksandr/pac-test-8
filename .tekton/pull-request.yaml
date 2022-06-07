@@ -42,5 +42,4 @@ spec:
               image: registry.access.redhat.com/ubi8/ubi-micro:8.5
               workingDir: $(workspaces.source.path)
               script: |
-                exit 0
-
+                sleep 30 && exit 0
